@@ -1,0 +1,218 @@
+body{
+    background-color: burlywood;
+}
+
+@font-face {
+    font-family:'tages';
+    src: url(font/Tagesschrift-Regular.ttf);
+}
+
+
+#marco{
+    font-family:'tages';
+    background-color: white;
+    height: 110vh;
+    width: 60%;
+    margin:7%;
+    padding: 20px;
+    border:2px solid green;
+    margin-left: 18%;
+
+}
+
+#cabecera{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+
+
+#cabecera img{
+    max-width: 300px;
+
+
+}
+
+.logo{
+    background-color: #9E9E9E;
+
+}
+
+ul{
+    align-self: flex-end;
+    margin-right: 20px;
+    
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+button{
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+
+button span{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    background: grey;
+    top:-50%;
+    left: -100%;
+    transition: .3s;
+}
+
+button:hover span{
+    position: absolute;
+    width: 100%;
+    height:100px ;
+    border-radius: 50%;
+    background-color: #9E9E9E;
+    top: -58%;
+    left: -100%;
+    transition: .3s;
+}
+
+button:hover {
+    color: antiquewhite;
+    background-color: grey;
+    box-shadow: 0 5px 5px black;
+}
+
+hr{
+    background-color: rgb(17, 51, 21);
+    height: 2px;
+}
+
+#cuerpo{
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: center;
+
+
+
+}
+.son{
+    width: 520px;
+    height: 300px;
+    margin:5px;
+    text-align: left;
+}
+
+.son img{
+    width: 30%;
+    float: left;
+}
+
+#html{
+
+
+}
+
+#orange{
+    background-color: 
+    #FF5100; 
+    
+}
+
+#orange h2{
+    text-align: center;
+    color: white;
+    
+}
+
+#css3{
+
+}
+
+#blue{
+    background-color: 
+    #1262B3;
+}
+
+#blue h2{
+    text-align: center;
+    color: white;
+
+}
+
+#js{
+
+}
+
+#yellow{
+    background-color: 
+    #E2B542;
+}
+
+#yellow h2{
+    text-align: center;
+    color: white;
+
+}
+
+#php{
+
+}
+
+#purple{
+    background-color: 
+    #756BAB;
+}
+
+#purple h2{
+    text-align: center;
+    color: white;
+
+}
+
+#pie{
+    background-color: #EEEDE9;
+}
+
+#pie_config{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#rojo{
+    color: red;
+}
+
+#verde{
+    color: green;
+}
+
+#azul{
+    color: blue;
+}
+
+#celeste{
+    background-color: #00A9EF;
+    color: white;
+}
+
+#negro{
+    background-color: black;
+    color: white;
+}
+
+.fa-brands{
+    font-size: 40px;
+}
+
+
+
+
+
